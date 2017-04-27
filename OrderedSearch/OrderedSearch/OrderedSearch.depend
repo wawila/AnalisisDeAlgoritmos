@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1493073287 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\main.cpp
+	"Test.h"
+	<iostream>
+
+1493051178 c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1493051148 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\test.cpp
+	"Test.h"
+
+1493075206 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\orderedsearch\main.cpp
+	"Test.h"
+	<iostream>
+
+1493051178 c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\orderedsearch\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1493051148 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\orderedsearch\test.cpp
+	"Test.h"
+
