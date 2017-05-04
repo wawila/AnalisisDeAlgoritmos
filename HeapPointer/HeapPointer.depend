@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1493850844 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\heappointer\src\binarytreenode.cpp
+	"BinaryTreeNode.h"
+
+1493850876 c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\heappointer\include\binarytreenode.h
+
+1493850755 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\heappointer\src\test.cpp
+	"Test.h"
+
+1493850770 c:\users\david chavarria\documents\unitec\analisis de algoritmos\orderedsearch\heappointer\include\test.h
+	"BinaryTreeNode.h"
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

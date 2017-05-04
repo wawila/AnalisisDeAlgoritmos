@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1493885274 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\mapdelete-exists\main.cpp
+	"Test.h"
+	<iostream>
+	<map>
+
+1493885376 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\mapdelete-exists\include\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1493886185 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\mapdelete-exists\src\test.cpp
+	"Test.h"
+	"Map.h"
+
+1493885319 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\mapdelete-exists\include\map.h
+	<iostream>
+	<map>
+	<vector>
+
+1493886876 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\mapdelete-exists\src\map.cpp
+	"Map.h"
+

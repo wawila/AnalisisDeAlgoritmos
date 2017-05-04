@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1493851611 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\heaparray\src\test.cpp
+	"Test.h"
+
+1493851622 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\heaparray\include\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1493852521 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\heaparray\main.cpp
+	"Test.h"
+	<iostream>
+
