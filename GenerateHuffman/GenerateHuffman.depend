@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1496303598 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\generatehuffman\src\test.cpp
+	"Test.h"
+
+1496303582 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\generatehuffman\include\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<map>
+	<queue>
+	<list>
+

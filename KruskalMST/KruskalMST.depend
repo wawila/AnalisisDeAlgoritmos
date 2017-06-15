@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1497467607 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\kruskalmst\main.cpp
+	"Test.h"
+	<iostream>
+	"Edge.h"
+
+1497467698 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\kruskalmst\include\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<map>
+	<queue>
+	<list>
+	"Edge.h"
+
+1497467741 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\kruskalmst\include\edge.h
+
+1497467728 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\kruskalmst\src\edge.cpp
+	"Edge.h"
+
+1497467681 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\kruskalmst\src\test.cpp
+	"Test.h"
+

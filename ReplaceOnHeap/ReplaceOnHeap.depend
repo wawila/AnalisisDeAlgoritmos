@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1494539170 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\replaceonheap\src\test.cpp
+	"Test.h"
+
+1494539190 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\replaceonheap\include\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1494539632 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\replaceonheap\main.cpp
+	"Test.h"
+	<iostream>
+

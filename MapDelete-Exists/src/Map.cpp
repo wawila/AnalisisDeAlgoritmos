@@ -44,7 +44,7 @@ bool Map::exists(string key)
 
 void Map::remove(string key)
 {
- vector< pair<string, int>* > * v =  array[hash(key)];
+ zvector< pair<string, int>* > * v =  array[hash(key)];
   for(int i=0; i< (int)v->size(); i++)
   {
     pair<string, int>* current_pair = (*v)[i];
