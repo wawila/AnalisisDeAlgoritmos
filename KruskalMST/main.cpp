@@ -27,6 +27,7 @@ void Union(struct subset subsets[], int x, int y)
 
     if (subsets[xroot].rank < subsets[yroot].rank)
         subsets[xroot].parent = yroot;
+
     else if (subsets[xroot].rank > subsets[yroot].rank)
         subsets[yroot].parent = xroot;
     else
@@ -68,7 +69,7 @@ int** getKruskalMST(int** graph, int size, vector<Edge*> edges)
         int y = find(subsets, edges[i]->destination);
 
         if (x != y)
-        {
+        {\
             result[edges[i]->source][edges[i]->destination] = edges[i]->weight;
             result[edges[i]->destination][edges[i]->source] = edges[i]->weight;
             Union(subsets, x, y);

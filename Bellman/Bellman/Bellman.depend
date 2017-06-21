@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1498083314 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\bellman\bellman\main.cpp
+	"Test.h"
+	<iostream>
+
+1498083362 c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\bellman\bellman\include\test.h
+	<iostream>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1498083344 source:c:\users\david chavarria\documents\unitec\analisis de algoritmos\tareas\bellman\bellman\src\test.cpp
+	"Test.h"
+
