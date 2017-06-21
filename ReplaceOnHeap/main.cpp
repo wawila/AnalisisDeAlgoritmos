@@ -2,10 +2,6 @@
 #include <iostream>
 using namespace std;
 
-//Padre = (Izquierda - 1) / 2 ->impar
-//Padre = (derecha - 2) / 2 - > Par
-
-
 int getSmallestChildIndex(vector<int> min_heap, int index)
 {
     int right_index = index*2 + 2;
@@ -17,7 +13,6 @@ int getSmallestChildIndex(vector<int> min_heap, int index)
     return right_son > left_son ? left_index : right_index;
 }
 
-//Ir a la posicion del padre
 int getFatherPosition(int current_index)
 {
     int direction = current_index % 2;
@@ -26,7 +21,6 @@ int getFatherPosition(int current_index)
     return direction != 0 ? (current_index - 1) / 2 : (current_index - 2) / 2;
 }
 
-// Buscar valor reemplazado
 int searchReplacedValue(vector<int> min_heap, int replaced_value)
 {
     for(int i = 0; i < min_heap.size(); i++)
@@ -38,7 +32,6 @@ int searchReplacedValue(vector<int> min_heap, int replaced_value)
     return -1;
 }
 
-//Si es Menor que el padre
 bool lessThanFather(vector<int> min_heap, int index)
 {
     int direction = index % 2;
@@ -61,8 +54,6 @@ bool isLeaf(vector<int> min_heap, int index)
     return false;
 }
 
-
-//Swap
 vector<int> swap(vector<int> min_heap, int current_index, int padre_posi)
 {
     int temp = 0;
@@ -73,7 +64,6 @@ vector<int> swap(vector<int> min_heap, int current_index, int padre_posi)
     return min_heap;
 }
 
-//Balanceo o nuevo ordenamiento de los monticulos
 vector<int> replaceAUX(vector<int> min_heap, int index) {
     if(index <= 0)
     {
@@ -104,8 +94,6 @@ vector<int> replaceAUX(vector<int> min_heap, int index) {
     }
 }
 
-
-//Reemplazo
 vector<int> replace(vector<int> min_heap, int replaced_value, int replacement)
 {
     int index = searchReplacedValue(min_heap, replaced_value);
